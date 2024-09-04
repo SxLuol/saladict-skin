@@ -1,6 +1,6 @@
 # 预览图
 
-![cover](https://cdn.jsdelivr.net/gh/nexmoe/image@latest/747f7f1a63c083fe3c47bf9722ef330d.png)
+![cover](https://s21.ax1x.com/2024/09/04/pAVxTJ0.png)
 
 # 食用方式
 
