@@ -1,66 +1,68 @@
+/* 设置菜单栏样式，适应黑暗模式 */
 .menuBar {
-	background-color: #fff;
-	border-bottom: 1px solid #eee;
-	padding: 8px;
+	background-color: #333; /* 深色背景，适应黑暗模式 */
+	border-bottom: 1px solid #555; /* 深色边框，增加层次感 */
+	padding: 8px; /* 内边距，增加空间感 */
 }
 
+/* 设置菜单栏图标的颜色，去除背景色 */
 .menuBar-Btn_Icon,
 .menuBar-Btn_Icon-fav {
-	fill: #222;
+	fill: #ccc; /* 浅色图标，提高可读性 */
+	background-color: transparent; /* 去除背景色，使其与背景色一致 */
 }
 
-.mtaBox-TextArea-Wrap,
-.mtaBox-DrawerBtn,
-.waveformBox.saladict-external,
-.dictItemHead-Logo,
-.menuBar-SearchBox_Wrap, /* 此行隐藏的悬浮窗口上的搜索框 */
-.menuBar-Btn[title="查单词"] /* 此行隐藏的悬浮窗口上的搜索按钮 */ 
-{
-	display: none;
-}
+/* 隐藏不需要的元素，如文本区域包装、抽屉按钮等 */
+/*.mtaBox-TextArea-Wrap,
+/*.mtaBox-DrawerBtn,
+/*.waveformBox.saladict-external,
+/*.dictItemHead-Logo,
+/*.menuBar-SearchBox_Wrap, /* 隐藏悬浮窗口上的搜索框 */
+/*.menuBar-Btn[title="查单词"] /* 隐藏悬浮窗口上的搜索按钮 */
+/*{
+/*	display: none; /* 不显示这些元素 */
+/*}
 
+/* 设置字典项样式，增加内边距 */
 .dictItem {
-	padding: 0 10px;
+	padding: 0 10px; /* 左右内边距，为内容留出空间 */
 }
 
+/* 设置第一个字典项的顶部内边距 */
 .dictItem:first-child {
-	padding-top: 10px;
+	padding-top: 10px; /* 顶部内边距，增加空间 */
 }
 
+/* 设置字典项主体样式，增加内边距 */
 .dictItem-Body {
-	padding: 0 3px;
+	padding: 0 3px; /* 左右内边距，为内容留出空间 */
 }
 
+/* 设置字典项头部样式，适应黑暗模式 */
 .dictItemHead {
-	background: #eee;
-	border-radius: 6px;
-	padding: 6px;
-	height: auto;
-	border-style: unset;
+	background: #555; /* 深色背景，适应黑暗模式 */
+	border-radius: 6px; /* 圆角边框，增加美观 */
+	padding: 6px; /* 内边距，增加空间感 */
+	height: auto; /* 高度自适应，根据内容调整 */
+	border-style: unset; /* 移除边框样式，保持简洁 */
 }
 .dictItemHead-Menus_Btn svg {
-    fill: #2c2b2b17;
+    fill: #ccc; /* 浅色图标，提高可读性 */
 }
 .dictItemHead-Title {
-    font-weight: bold;
+    font-weight: bold; /* 加粗标题，强调重要性 */
+    color: #fff; /* 浅色标题，提高可读性 */
 }
 .dictItemHead-FoldArrow {
-    padding: 5px;
+    padding: 5px; /* 内边距，增加点击区域 */
 }
 .dictItemHead-Loader>div {
-    width: 4px;
-    height: 4px;
-    margin: 1px;
-    background: #99c99d;
-    border-radius: 100%;
+    width: 4px; /* 加载指示器宽度 */
+    height: 4px; /* 加载指示器高度 */
+    margin: 1px; /* 间隔，保持指示器间距 */
+    background: #99c99d; /* 保持加载指示器颜色 */
+    border-radius: 100%; /* 圆形边框，增加美观 */
 }
 .menuBar-Btn_Icon, .menuBar-Btn_Icon-fav, .menuBar-Btn_Icon-history {
-    width: 70%;
-    height: 70%;
-}
-.dictPanel-Root {
-    box-shadow: rgba(0, 0, 0, 0.2) 0 7px 21px 2px;
-}
-.isAnimate .menuBar-Btn, .isAnimate .menuBar-Btn-dir {
-    border-radius: 6px;
-}
+    width: 70%; /* 图标宽度 */
+    height: 70%; /*
